@@ -1,0 +1,16 @@
+{
+  "apps": [
+    {
+      "name": "scheduler",
+      "script": "artisan",
+      "args": "schedule:work",
+      "interpreter": "php"
+    },
+    {
+      "name": "queue-worker",
+      "script": "artisan",
+      "args": "queue:work",
+      "interpreter": "php"
+    }
+  ]
+}
